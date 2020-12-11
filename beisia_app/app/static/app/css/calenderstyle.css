@@ -1,0 +1,19 @@
+body{
+     background-color: #FEFFF0 ;
+    margin:20px;
+}
+
+td{
+    background-color: white ;
+    border: 1px solid black ;
+}
+
+.day{
+    display: block;
+    padding: 5px 30px 50px 5px;
+}
+
+th{
+    background-color: white ;
+    border: 1px solid black ;
+}

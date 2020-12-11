@@ -1,0 +1,17 @@
+{% load static %}
+<!doctype html>
+<html lang="ja">
+<head>
+        <link rel="stylesheet" type="text/css" href="{% static 'memo/css/thanksstyle.css' %}">
+    <meta charset="utf-8">
+    <title>thanks</title>
+</head>
+<body>
+    <h1 class="title">ベイシア便オンライン</h1>
+    <img class="earth" src="{% static "memo/images/earth.png" %}" >
+    <h1 class="thanks">ご登録ありがとうございました！！</h1>
+    <a href="{% url 'app:home' %}">
+      <button type="submit" value="thanks" >トップに戻る</button>
+    </a>
+</body>
+</html>

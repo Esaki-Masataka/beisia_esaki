@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: #FEFFF0;
+}
+
+.title{
+    color:#FFC000;
+    font-size: 80px;
+    text-align: center ;
+}
+
+.thanks{
+    font-size:40px;
+    color:black;
+    margin-top:150px;
+}
+
+button{
+    font-size:18px;
+    margin-top:50px;
+    width:150px;
+    height:50px;
+}
+
+.earth{
+    position: absolute;
+    top:20px;
+    left:1050px;
+    width:10%;
+}

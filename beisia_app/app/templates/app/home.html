@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/css/homestyle.css' %}">
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>ベイシア便オンライン</h1>
+    <img class="earth" src="{% static "app/images/earth.png" %}" >
+    <img class="car" src="{% static "app/images/car.png" %}" >
+    
+    <input type="button" onclick="location.href='/mycalendar'" value="START" class="buttonL">
+    <input type="button" onclick="location.href='/memo/record'" value="確認" class="buttonR"></a>
+
+</body>
+</html>
